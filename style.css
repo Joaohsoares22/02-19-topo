@@ -1,0 +1,22 @@
+body{
+    background-color: #042326;
+}
+
+/*chama uma classe (ponto antes) */
+.container{
+    max-width: 900px;
+    margin: auto; /*centraliza a div*/
+    background-color: #107361;
+    padding:30px;
+    border-radius: 90px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.header{
+    background-color: #10454F;
+    padding: 30px;
+    border-radius: 35px;
+}
+
