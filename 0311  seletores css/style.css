@@ -1,0 +1,78 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #ecdfdb;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #e0d3b8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex; 
+}
+
+/*limk que estao dentro do nav*/
+nav a{
+    padding: 20px;
+    display: inline-block;
+}
+
+header{
+    background-color: #a69a81;
+
+}
+
+#sobre{
+    background-color:  #e0d3b8;
+    
+}
+
+#menu{
+    background-color:  #a69a81;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+/*hack do menu fixo*/
+header,section{
+    padding: 50px 30px 30px 30px;
+    min-height: 20vh;
+}
+
+header{
+    text-align: center;
+    padding-top: 10vh;
+}
+
+table{
+    width: 100%;
+}
+
+th,td{
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+}
+
+th{
+    background-color:#e0d3b8 ;
+    color: #a69a81;
+}
+nav a:link, nav a:visited{
+    text-decoration: none;
+    color: red
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
